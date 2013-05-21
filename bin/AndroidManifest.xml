@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.Constitution.Kenya" android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="15"/>
+	
+	<application android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name">
+		<activity android:name=".ChapterListActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		 <activity android:name=".Preamble" android:label="Preamble">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.PREAMBLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Sovereignty" android:label="Sovereingty">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.SOVEREIGNTY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Therepublic" android:label="Therepublic">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.THEREPUBLIC" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Citizenship" android:label="Citizenship">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.CITIZENSHIP" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Leadership" android:label="Leadership">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.LEADERSHIP" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Commissions" android:label="Commissions">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.COMMISSIONS" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Amendments" android:label="Amendments">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.AMENDMENTS" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Generalprovisions" android:label="General provisions">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.GENERALPROVISIONS" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Transitionalprovisions" android:label="Transitional provisions">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.TRANSITIONALPROVISIONS" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Legislature" android:label="Legislature">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.LEGISLATURE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Executive" android:label="Executive">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.EXECUTIVE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Judiciary" android:label="Judiciary">
+			<intent-filter>
+				<action android:name="com.Constitution.Kenya.JUDICIARY" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
